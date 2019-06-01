@@ -1,0 +1,153 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.nav {
+    height: 60px;
+    width: 100%
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.app-grid {
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;  
+}
+
+.gmail, .images, .app-grid, .sign-in {
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    right: 30px;
+}
+
+.gmail, .images, .sign-in {
+    top: 10px;
+    
+}
+
+.about, .store {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.store {
+    margin-left: 20px;
+}
+
+.sign-in {
+    background-color: #4387fd;
+    border: 1px solid #4387fd;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    margin-top: -2px;
+}
+
+
+#logo {
+    position: relative;
+    left: 38%;
+    top: 50%;
+    margin-top: 130px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    position: relative;
+    left: 30%;
+    margin-top: 20px;
+    
+}
+
+.search-bar input {
+    width: 454px;
+    height: 35px;
+    
+}
+
+#gs, #lucky {
+    position: relative;
+    left: 35%;
+    top: 31px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    width: 150px;
+    font-size: 14px;
+    z-index: 10;
+}
+
+#gs {
+    margin-right: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 1200px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    left: -10px;
+    
+}
+
+.advertising, .business {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    left: 10px;
+    color: lightslategray;
+    top: 30px;
+    left: 30px;
+}
+
+.advertising {
+    margin-right: 10px;
+}
+
+.business {
+    margin-left: 20px;
+}
+
+.privacy, .terms, .settings {
+    position: relative;
+    float: right;
+    margin: 10px;
+    margin-right: 30px;
+    color: lightslategray;
+    right: 10px;
+    top: 20px;
+}
